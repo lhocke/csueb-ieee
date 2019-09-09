@@ -9,11 +9,9 @@ app.use(helmet())
 app.use(express.static(path.resolve(__dirname,'public')))
 app.use(express.static(path.resolve(__dirname,'views')))
 
-// var index = require('./views/index.html')
+var indexRouter = require('./routes/index')
 
-// app.get('/', (req,res)=>{
-//     res.send
-// })
+app.use('/', indexRouter)
 
 app.listen(PORT, () => {                // ExpressJS server start
     console.log(`Listening on ${PORT}`) // Output port number
