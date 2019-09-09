@@ -1,0 +1,17 @@
+{
+  "name": "csueb-ieee-site",
+  "version": "0.0.1",
+  "description": "IEEE Website for CSUEB chapter",
+  "main": "server.js",
+  "author": "lhocke",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "express": "^4.17.1",
+    "react": "^16.9.0",
+    "react-router": "^5.0.1"
+  },
+  "devDependencies": {
+    "webpack": "^4.39.3"
+  }
+}
